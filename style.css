@@ -1,0 +1,26 @@
+header {
+    background-color: #B73E3E;
+    background-image:linear-gradient(#f5f5f5,#C197D7);
+}
+
+.cabeçalho {
+    background-color: #CABFCF;
+    color: #A9248F;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo-cabeçalho {
+    width: 25%;
+    height: 25%;
+
+}
+
+.itens {
+    display: inline-block;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
