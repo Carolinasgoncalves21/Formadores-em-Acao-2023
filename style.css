@@ -24,3 +24,28 @@ header {
     margin: 0px;
     padding: 0px;
 }
+
+.formadores {
+    background-image: linear-gradient(#A9248F, #E2CBCB);
+    color: #A9248F;
+    margin:auto;
+    padding: auto;
+    width: 1440px;
+    height: 354px;
+}
+
+.titulo-formadores {
+    margin: 0px;
+    padding: 80px 15px;
+    color: #000000;
+    text-align: center;
+    font-size: 64px;
+    
+}
+
+.paragrafo-formadores {
+    margin: 0px;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 36px;
+}
