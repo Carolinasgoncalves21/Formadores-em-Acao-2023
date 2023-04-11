@@ -1,23 +1,23 @@
-header {
-    background-color: #B73E3E;
-    background-image:linear-gradient(#f5f5f5,#C197D7);
-}
-
 .cabeçalho {
-    background-color: #CABFCF;
+    background-image:linear-gradient(#f5f5f5,#C197D7);
     color: #A9248F;
     display: flex;
     justify-content: space-around;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 .logo-cabeçalho {
     width: 25%;
     height: 25%;
-
 }
 
 .itens {
     display: inline-block;
+    font-size: 24px;
+    margin: 5px;
 }
 
 *{
@@ -39,8 +39,7 @@ header {
     padding: 80px 15px;
     color: #000000;
     text-align: center;
-    font-size: 64px;
-    
+    font-size: 64px; 
 }
 
 .paragrafo-formadores {
@@ -49,3 +48,26 @@ header {
     text-align: center;
     font-size: 36px;
 }
+
+
+
+.galeria {
+    background-color: #A97EBC;
+    color: #FFFFFF;
+    justify-content: space-around;
+    font-size: 36px;
+    display: flex;
+    width: 1440px;
+    height: 284px;
+}
+
+.foto-galeria {
+    padding-top: 30px;
+    width: 368px;
+    height: 211px;
+}
+
+.texto-galeria {
+    padding-top: 40px;
+}
+
