@@ -7,6 +7,7 @@
 
 body {
     font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
 }
 
 .logo-cabeçalho {
@@ -18,6 +19,7 @@ body {
     display: inline-block;
     font-size: 24px;
     margin: 5px;
+    padding-top: 30px;
 }
 
 *{
@@ -30,14 +32,14 @@ body {
     color: #A9248F;
     margin:auto;
     padding: auto;
-    width: 1440px;
-    height: 354px;
+    height: 400px;
 }
 
 .titulo-formadores {
     margin: 0px;
     padding: 80px 15px;
     color: #000000;
+    font-weight: bold;
     text-align: center;
     font-size: 64px; 
 }
@@ -49,25 +51,35 @@ body {
     font-size: 36px;
 }
 
-
-
 .galeria {
     background-color: #A97EBC;
     color: #FFFFFF;
     justify-content: space-around;
     font-size: 36px;
     display: flex;
-    width: 1440px;
-    height: 284px;
+    height: 350px;
 }
 
 .foto-galeria {
     padding-top: 30px;
     width: 368px;
     height: 211px;
+    border-radius: 40px;
 }
 
 .texto-galeria {
     padding-top: 40px;
+    font-size: 36px;
+}
+
+.legenda-galeria{
+    text-align: center;
+    font-size: 16px;
+}
+
+.galeria-todos {
+    padding-right: 50px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
